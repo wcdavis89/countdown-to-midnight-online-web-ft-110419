@@ -1,9 +1,18 @@
 #write your code here
-def loops
-countdown=10 
-   while n>0 do
-  puts "#{n} SECOND(S)!"
-     n-=1
+
+def countdown(seconds)
+  while seconds>0 
+  puts "#{seconds} SECOND(S)!"
+  seconds-=1
 end
+"HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(seconds)
+    while seconds>0 
+  puts "#{seconds} SECOND(S)!"
+  seconds-=1
+  sleep(1)
+end
+"HAPPY NEW YEAR!"
 end
