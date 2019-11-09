@@ -7,4 +7,3 @@ def countdown(seconds)
 end
 print "HAPPY NEW YEAR!"
 end
-puts countdown(10)
