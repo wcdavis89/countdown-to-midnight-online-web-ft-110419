@@ -1,9 +1,8 @@
 #write your code here
-def loops
-countdown=10 
-   while n>0 do
+
+def countdown
+  n=10
+  while n>0 
   puts "#{n} SECOND(S)!"
-     n-=1
-end
-end
+  n-=1
 end
