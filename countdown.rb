@@ -1,10 +1,10 @@
 #write your code here
 
-def countdown(seconds_to_midnight)
-  n=10
-  while n>0 
-  puts "#{n} SECOND(S)!"
-  n-=1
+def countdown(seconds)
+  while seconds>0 
+  puts "#{seconds} SECOND(S)!"
+  seconds-=1
 end
-p "HAPPY NEW YEAR!"
+print "HAPPY NEW YEAR!"
 end
+puts countdown(10)
